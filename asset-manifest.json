@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/swaghili/static/css/main.d1b05096.chunk.css",
+    "main.js": "/swaghili/static/js/main.eb574c5f.chunk.js",
+    "main.js.map": "/swaghili/static/js/main.eb574c5f.chunk.js.map",
+    "runtime-main.js": "/swaghili/static/js/runtime-main.88d3ee84.js",
+    "runtime-main.js.map": "/swaghili/static/js/runtime-main.88d3ee84.js.map",
+    "static/js/2.fe82a47e.chunk.js": "/swaghili/static/js/2.fe82a47e.chunk.js",
+    "static/js/2.fe82a47e.chunk.js.map": "/swaghili/static/js/2.fe82a47e.chunk.js.map",
+    "index.html": "/swaghili/index.html",
+    "precache-manifest.49c50084525b735893fd466532af50fe.js": "/swaghili/precache-manifest.49c50084525b735893fd466532af50fe.js",
+    "service-worker.js": "/swaghili/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/swaghili/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.fe82a47e.chunk.js.LICENSE.txt": "/swaghili/static/js/2.fe82a47e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/swaghili/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88d3ee84.js",
+    "static/js/2.fe82a47e.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.eb574c5f.chunk.js"
+  ]
+}
