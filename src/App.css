@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+aside, header, footer, article, span {
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  color: white;
+  font-size: 1.2em;
+  font-family: -apple-system,
+  BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen,
+  Ubuntu, Cantarell, “Open Sans”, “Helvetica Neue”, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+article {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding-left: 50px;
+}
+
+aside {
+  grid-column: 1/2;
+  grid-row: 1/3;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 3;
 }
 
-.App-link {
-  color: #61dafb;
+.scores {
+  font-size: x-large;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.board-game {
+  padding-top: 5px;
+  font: normal 56px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 rgb(255, 210, 23), 5px 5px 0 rgb(90, 199, 255), 8px 7px 0 rgb(255, 210, 23), 10px 10px 0 rgb(90, 199, 255);
+}
+
+.retro {
+  color: rgb(112, 112, 112);
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 0 rgb(238,238,238) , 2px 2px 0 rgb(112,112,112) ;
+}
+
+
+.grid-wrapper {
+  /*changed the height from 100% to auto as the layout breaks when the height of the content overflows*/
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: min-content auto min-content;
+
+}
+
+.tweetDisplay {
+  height: 294px;
+  width: 340px;
+  background: white;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+
+header {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-color: #96D1C7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+}
+
+footer {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  background-color: #96D1C7;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type:none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+.image {
+  display: inline-block;
+  height: 500px;
+  background-color: #D6D5D5;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+h1, h4, p {
+  padding: 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.line-1{
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 100%;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 1s steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@media only screen and (max-width: 850px) {
+
+  /*changes to code to arrange aside below article. */
+  .grid-wrapper {
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  aside {
+    order: 1
   }
+
+  footer {
+    order: 2;
+  }
+
+  /*end of changes*/
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .image {
+    margin-bottom: 20px;
+  }
+
 }
