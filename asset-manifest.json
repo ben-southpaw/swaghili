@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/swaghili/static/css/main.58a6db13.chunk.css",
+    "main.css": "/swaghili/static/css/main.9381f88b.chunk.css",
     "main.js": "/swaghili/static/js/main.d949cb25.chunk.js",
     "main.js.map": "/swaghili/static/js/main.d949cb25.chunk.js.map",
     "runtime-main.js": "/swaghili/static/js/runtime-main.88d3ee84.js",
@@ -8,15 +8,15 @@
     "static/js/2.c98e6263.chunk.js": "/swaghili/static/js/2.c98e6263.chunk.js",
     "static/js/2.c98e6263.chunk.js.map": "/swaghili/static/js/2.c98e6263.chunk.js.map",
     "index.html": "/swaghili/index.html",
-    "precache-manifest.f90dc9d03ee7b0a8a31988b248f96e68.js": "/swaghili/precache-manifest.f90dc9d03ee7b0a8a31988b248f96e68.js",
+    "precache-manifest.41579ce9ec43267f1761b61c90e65cda.js": "/swaghili/precache-manifest.41579ce9ec43267f1761b61c90e65cda.js",
     "service-worker.js": "/swaghili/service-worker.js",
-    "static/css/main.58a6db13.chunk.css.map": "/swaghili/static/css/main.58a6db13.chunk.css.map",
+    "static/css/main.9381f88b.chunk.css.map": "/swaghili/static/css/main.9381f88b.chunk.css.map",
     "static/js/2.c98e6263.chunk.js.LICENSE.txt": "/swaghili/static/js/2.c98e6263.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.88d3ee84.js",
     "static/js/2.c98e6263.chunk.js",
-    "static/css/main.58a6db13.chunk.css",
+    "static/css/main.9381f88b.chunk.css",
     "static/js/main.d949cb25.chunk.js"
   ]
 }

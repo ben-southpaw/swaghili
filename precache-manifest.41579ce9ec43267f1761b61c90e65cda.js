@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65df83e40c2d93abd68b4324c5c73ada",
+    "revision": "5805abbe997fe7ae7c8024fded176db3",
     "url": "/swaghili/index.html"
   },
   {
-    "revision": "773ad2a0d4fe78114b95",
-    "url": "/swaghili/static/css/main.58a6db13.chunk.css"
+    "revision": "5cc27a810ff12e7dc528",
+    "url": "/swaghili/static/css/main.9381f88b.chunk.css"
   },
   {
     "revision": "1895c83bb54992583dfe",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swaghili/static/js/2.c98e6263.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "773ad2a0d4fe78114b95",
+    "revision": "5cc27a810ff12e7dc528",
     "url": "/swaghili/static/js/main.d949cb25.chunk.js"
   },
   {
