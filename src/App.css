@@ -66,7 +66,7 @@ aside {
 
 .grid-wrapper {
   /*changed the height from 100% to auto as the layout breaks when the height of the content overflows*/
-  height: auto;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: min-content auto min-content;
@@ -160,6 +160,8 @@ h1 {
 
 @media only screen and (max-width: 850px) {
 
+  
+
   /*changes to code to arrange aside below article. */
   .grid-wrapper {
     display: flex;
@@ -210,15 +212,12 @@ h1 {
 
   article {
     padding-left: 5%;
+    /*position: absolute;*/
   }
 
   h1, h4, p {
       padding: 0;
   }
-
-  /*body {*/
-  /*  position:fixed*/
-  /*}*/
 
 
 }
