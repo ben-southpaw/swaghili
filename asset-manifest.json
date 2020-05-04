@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/swaghili/static/css/main.217b9f97.chunk.css",
-    "main.js": "/swaghili/static/js/main.e81f715c.chunk.js",
-    "main.js.map": "/swaghili/static/js/main.e81f715c.chunk.js.map",
+    "main.css": "/swaghili/static/css/main.58a6db13.chunk.css",
+    "main.js": "/swaghili/static/js/main.d949cb25.chunk.js",
+    "main.js.map": "/swaghili/static/js/main.d949cb25.chunk.js.map",
     "runtime-main.js": "/swaghili/static/js/runtime-main.88d3ee84.js",
     "runtime-main.js.map": "/swaghili/static/js/runtime-main.88d3ee84.js.map",
     "static/js/2.c98e6263.chunk.js": "/swaghili/static/js/2.c98e6263.chunk.js",
     "static/js/2.c98e6263.chunk.js.map": "/swaghili/static/js/2.c98e6263.chunk.js.map",
     "index.html": "/swaghili/index.html",
-    "precache-manifest.567e750847d8158d40e3a6dc28a81f17.js": "/swaghili/precache-manifest.567e750847d8158d40e3a6dc28a81f17.js",
+    "precache-manifest.f90dc9d03ee7b0a8a31988b248f96e68.js": "/swaghili/precache-manifest.f90dc9d03ee7b0a8a31988b248f96e68.js",
     "service-worker.js": "/swaghili/service-worker.js",
-    "static/css/main.217b9f97.chunk.css.map": "/swaghili/static/css/main.217b9f97.chunk.css.map",
+    "static/css/main.58a6db13.chunk.css.map": "/swaghili/static/css/main.58a6db13.chunk.css.map",
     "static/js/2.c98e6263.chunk.js.LICENSE.txt": "/swaghili/static/js/2.c98e6263.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.88d3ee84.js",
     "static/js/2.c98e6263.chunk.js",
-    "static/css/main.217b9f97.chunk.css",
-    "static/js/main.e81f715c.chunk.js"
+    "static/css/main.58a6db13.chunk.css",
+    "static/js/main.d949cb25.chunk.js"
   ]
 }
