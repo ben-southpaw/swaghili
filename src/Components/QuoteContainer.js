@@ -11,7 +11,7 @@ const QuoteContainer = () => {
     return(
         <article>
             <h1 className="board-game">IS KANYE OK TODAY? </h1>
-            <p>Sentiment analysis of his thoughts</p>
+            <p className="subtitle">Sentiment analysis of his thoughts</p>
             <div className="flex-wrapper">
                 <main className="app">
                     <section className="quotes">
